@@ -1,0 +1,6 @@
+{
+  "name": "Myraa",
+  "description": "JARVIS-style futuristic AI companion with emotional awareness, local database memory, and voice interaction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

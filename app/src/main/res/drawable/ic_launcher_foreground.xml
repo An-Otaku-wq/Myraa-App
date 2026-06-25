@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer energy segments (Arc Reactor Ring) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 54 20 A 34 34 0 0 1 88 54" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 88 54 A 34 34 0 0 1 54 88" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 54 88 A 34 34 0 0 1 20 54" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 20 54 A 34 34 0 0 1 54 20" />
+
+    <!-- Core focus circle rings -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 54 34 A 20 20 0 1 0 54 74 A 20 20 0 1 0 54 34"
+        android:fillType="nonZero" />
+        
+    <!-- High-intensity white center focus -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54 44 A 10 10 0 1 0 54 64 A 10 10 0 1 0 54 44" />
+
+    <!-- Surrounding power nodes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54 12 A 4 4 0 1 0 54 20 A 4 4 0 1 0 54 12" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54 88 A 4 4 0 1 0 54 96 A 4 4 0 1 0 54 88" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 12 54 A 4 4 0 1 0 20 54 A 4 4 0 1 0 12 54" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 88 54 A 4 4 0 1 0 96 54 A 4 4 0 1 0 88 54" />
+</vector>
