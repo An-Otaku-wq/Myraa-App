@@ -24,17 +24,17 @@ data class Content(
 
 @JsonClass(generateAdapter = true)
 data class GenerationConfig(
-    val responseMimeType: String? = null,
+    @Json(name = "response_mime_type") val responseMimeType: String? = null,
     val temperature: Float? = null,
-    val topP: Float? = null,
-    val topK: Int? = null
+    @Json(name = "top_p") val topP: Float? = null,
+    @Json(name = "top_k") val topK: Int? = null
 )
 
 @JsonClass(generateAdapter = true)
 data class GenerateContentRequest(
     val contents: List<Content>,
-    val systemInstruction: Content? = null,
-    val generationConfig: GenerationConfig? = null
+    @Json(name = "system_instruction") val systemInstruction: Content? = null,
+    @Json(name = "generation_config") val generationConfig: GenerationConfig? = null
 )
 
 @JsonClass(generateAdapter = true)
